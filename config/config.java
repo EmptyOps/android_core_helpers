@@ -60,7 +60,7 @@ public class config
      */
     public config()
     {
-        //REST to dev or staging or live server
+        //REST URLs calling to dev or staging or live server
         if( this.ENV == 3 )
         {
             this.REST_URL = ENV_3_REST_URL;
